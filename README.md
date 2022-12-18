@@ -1,18 +1,37 @@
+### 2022 - AIFFEL Dataton Project 
+## 🎬 [Netflix Data Analysis] Netflix 데이터셋과 Netflix의 연도별 행보를 활용하여 데이터 시각화, EDA 수행
+#### Netflix의 연도별 실적, 투자 내용을 바탕으로 연관성 분석
+![image](https://user-images.githubusercontent.com/108614874/208298254-4d423910-f700-48c3-bc76-2684c7cceaa6.png)
 
-# Visual Flix
+### 1. Intro
+[넷플릭스 데이터셋](https://www.kaggle.com/datasets/shivamb/netflix-shows)과 [IMDB 별점 데이터셋](https://www.kaggle.com/datasets/ruchi798/tv-shows-on-netflix-prime-video-hulu-and-disney)을 이용
+* 데이터를 시간 순서로 정렬하고, 넷플릭스의 행보를 따라가면서 그에 따른 영화/프로그램 장르의 변화, 영상 수 등을 분석하는 것이 목표입니다.
+### 2. Project
 
-## 목차
+* **Netflix Dataset**  
+전 세계에서 가장 인기있는 스트리밍 플랫폼 Netflix의 영화와 TV 프로그램들의 정보를 담고 있는 데이터셋입니다!   
+8000편 이상의 영화 또는 TV 프로그램의 정보를 담고 있습니다.   
+이 데이터 세트는 출연진, 감독, 등급, 출시 연도, 기간 등과 같은 세부 정보와 함께 Netflix에서 사용할 수 있는 모든 영화 및 TV 프로그램 목록으로 구성됩니다.   
+  - show_id  s1-s8807
+  - type Movie, Tv Show
+  - title
+  - director
+  - cast
+  - country
+  - date_added
+  - release_year 출시연도
+  - rating 관람등급
+  - duration : 시간, Season
+  - listed in
+  - description
+  - rating  
+* **Netflix Color Palette 생성**  
 
-1. 팀 소개  
-2. 팀원 소개  
-3. 데이터 소개  
-4. 분석 목표  
+![image](https://user-images.githubusercontent.com/108614874/208298560-662fb6dd-9f06-4711-8307-6062b94fb45c.png)  
 
-## 1. 팀 소개  
 
-Visual Flix란 NetFlix를 Visualize 하겠다. 라는 뜻으로 생각해낸 팀 이름입니다!
-
-## 2. 팀원 소개
+### 3. 팀원 소개
+Visual_flix : Netflix를 Visualize 해보이겠다는 뜻의 팀명
 
 모예송 🙆‍♀️  
 팀장이지만 가장 팀원같은 모예송입니다.  
@@ -29,41 +48,6 @@ Visual_Flix팀 쵝오👍🏻
 넷플릭스 데이터를 이번 데이터톤 주제로 선정하여 분석하게 되어서 설렘 반 걱정 반입니다.  
 재밌는 데이터 분석 결과를 보여드릴 수 있도록 최선을 다해보겠습니다!
 
-## 3. 데이터 소개
 
-전 세계에서 가장 인기있는 스트리밍 플랫폼 Netflix의 영화와 TV 프로그램들의 정보를 담고 있는 데이터셋입니다!  
-8000편 이상의 영화 또는 TV 프로그램의 정보를 담고 있습니다.  
-이 데이터 세트는 출연진, 감독, 등급, 출시 연도, 기간 등과 같은 세부 정보와 함께 Netflix에서 사용할 수 있는 모든 영화 및 TV 프로그램 목록으로 구성됩니다.  
-  
-Netflix Data
 
-- show_id  s1-s8807
-
-- type Movie, Tv Show
-
-- title
-
-- director
-
-- cast
-
-- country
-
-- date_added
-
-- release_year 출시연도
-
-- rating 관람등급
-
-- duration : 시간, Season
-
-- listed in
-
-- description
-
-- rating
-
-## 4. 분석 목표  
-
-* 데이터를 시간 순서로 정렬하고, 넷플릭스의 행보를 따라가면서 그에 따른 영화/프로그램 장르의 변화, 영상 수 등을 분석
-
+### 4. 회고
